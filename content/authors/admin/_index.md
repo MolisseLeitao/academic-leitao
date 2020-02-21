@@ -45,15 +45,15 @@ social:
 - icon: envelope
   icon_pack: fas
   link: '#contact'  # For a direct email link, use "aleitao@novaims.unl.pt".
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
+# - icon: twitter
+#  icon_pack: fab
+#  link: https://twitter.com/GeorgeCushen
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/Antonio-Leitao
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -71,4 +71,4 @@ user_groups:
 ---
 I'm a mathematician currently doing my Master's thesis at [ISI Foundation](https://www.isi.it/en/home) under the supervision of [Giovanni Petri](https://lordgrilo.github.io/). My work focuses mainly on the Topology of spaces in learning systems. 
 
-Ocasionally I stumble upon interesting nuggets of information that unfortunately have no space in my thesis; hence one of the reasons for this page.
+Ocasionally I stumble upon interesting nuggets of information that unfortunately have no space in my thesis; hence this site.
