@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'Libertinus Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Libertinus Regular'), url('data/fonts/LibertinusSans-Regular.otf');
+}
+
+@font-face {
+  font-family: 'Libertinus Bold';
+  font-style: bold;
+  font-weight: 400;
+  src: local('Libertinus bold'), url('data/fonts/LibertinusSans-Bold.otf');
+}
+
+@font-face {
+  font-family: 'CMU Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: local('CMU Regular'), url('data/fonts/cmunss.ttf');
+}
+
+
+@font-face {
+  font-family: 'CMU Bold';
+  font-style: bold;
+  font-weight: 400;
+  src: local('CMU bold'), url('data/fonts/cmunsx.ttf');
+}
