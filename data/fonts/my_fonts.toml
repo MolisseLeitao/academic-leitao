@@ -6,6 +6,6 @@ name = "Orange"
 
 # Font families
 heading_font = "CMU Bold"
-body_font = "Libertinus Sans Regular"
-nav_font = "Libertinus Sans Regular"
+body_font = "Libertinus Regular"
+nav_font = "Libertinus Regular"
 mono_font = "Roboto Mono"
