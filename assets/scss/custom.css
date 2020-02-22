@@ -9,7 +9,7 @@
   font-family: 'Libertinus Bold';
   font-style: bold;
   font-weight: 400;
-  src: local('Libertinus bold'), url('data/fonts/LibertinusSans-Bold.otf');
+  src: local('Libertinus Bold'), url('data/fonts/LibertinusSans-Bold.otf');
 }
 
 @font-face {
@@ -24,5 +24,5 @@
   font-family: 'CMU Bold';
   font-style: bold;
   font-weight: 400;
-  src: local('CMU bold'), url('data/fonts/cmunsx.ttf');
+  src: local('CMU Bold'), url('data/fonts/cmunsx.ttf');
 }
