@@ -6,7 +6,8 @@ math: true
 diagram: true
 reading_time: false  
 share: false  
-profile: false  
+profile: false
+weight = 1
 commentable: true
 image:
   placement: 1
