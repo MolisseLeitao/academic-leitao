@@ -7,6 +7,10 @@ reading_time: false
 share: false  
 profile: false  
 commentable: true
+image:
+  placement: 1
+  focal_point: "Center"
+  preview_only: false
 ---
 
 # Approaching the Edge of Decision
