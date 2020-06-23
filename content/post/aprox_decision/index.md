@@ -7,6 +7,7 @@ reading_time: false
 share: false  
 profile: false  
 commentable: true
+weight: 2
 image:
   placement: 1
   focal_point: "Center"
