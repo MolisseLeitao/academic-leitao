@@ -4,6 +4,7 @@ subtitle: On the topological expressiveness of a Networks architecture.
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing at in tellus integer. Ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper. Risus viverra adipiscing at in tellus integer feugiat. Vel facilisis volutpat est velit egestas dui id ornare. Volutpat ac tincidunt vitae semper quis lectus nulla. Cras adipiscing enim eu turpis. Lorem ipsum dolor sit amet consectetur. 
 math: true
 diagram: true
+weight: 3
 reading_time: false  
 share: false  
 profile: false  
