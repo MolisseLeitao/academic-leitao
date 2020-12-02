@@ -8,6 +8,8 @@ share: true
 profile: false  
 comments: true
 weight: 2
+header-includes:
+  - \usepackage{algorithm2e}
 image:
   placement: 1
   focal_point: "Center"
