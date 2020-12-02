@@ -8,8 +8,6 @@ share: true
 profile: false  
 comments: true
 weight: 2
-header-includes:
-  - \usepackage{algorithm2e}
 image:
   placement: 1
   focal_point: "Center"
@@ -84,26 +82,7 @@ Ok, now just like no one really cares about a TDA implementation on github that 
 There is a workaround. We don't need *all* of the Voronoi cover, just the ability to sample points from the union of *some* of its edges. Thus, not having to calculate intersections should throw us to sub-quadratic running time, hopefully. 
 
 **Algorithm 1.5** Sample decision boundary.
-$$
-\begin{algorithm}[H]
-\hspace*{0.5cm} \textbf{Input:} $A \gets$ list of points class A\\
-\hspace*{1.8cm}$B\gets$ list of points of class B\\
-\hspace*{1.8cm}$n\gets$ number of points to sample from boundary\\
-\hspace*{1.8cm}$iteration \gets$ number of iterations\\
-\hspace*{0.5cm} \textbf{Output:} $Q \gets$ list of $n$ points in the decision boundary of $A$ and $B$ \\
-\SetAlgoLined
- $Q \gets$ Sample $n$ points uniformly.\;
- \For{each iteration}{
-     \For{each point $p$ in Q}{
-      $p_A \gets$ Nearest Neighbour of $p$ in $A$ \;
-      $p_B \gets$ Nearest Neighbour of $p$ in $B$ \;
-      \emph{project $p$ to the hyperplane orthogonal to $p_A-p_B$}\;
-      $p \gets proj_{(p_A-p_B)_{\perp}}(p)$ \;
-     }
-    }
- \caption{Sample the decision boundary}
-\end{algorithm}
-$$
+{{< figure src="algo.png">}}
 
 - Cover the space with a set $Q$ of uniformly sampled points.
 
