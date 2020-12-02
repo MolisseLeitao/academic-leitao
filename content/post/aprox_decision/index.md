@@ -23,7 +23,8 @@ image:
 <H3> <div style="text-align:center">Prelude</div> </H3>
 *Complex data requires complex models.* Or so the saying goes. In every domain, one of the major difficulties is selecting the optimal model architecture for given a classification problem. Most approaches tend to be domain-specific [reference] or offer no reasonable explanations of a model's architecture choice, aside from superior performance [references]. The only logical step would be to look at the data itself [^1] and build a model based of certain characteristics of the data. But what is complex data anyways?  If we follow [Will] then complex data is data that has _non-trivial homology_ . However, classifying two concentric circles is challenging not because they are circles, but because they are concentric.
 
-![calsses_separated](C:\Users\anton\Desktop\ISI presentation\Posts\Approaching the Edge of Decision\classes_separated.png) ![classes_joined](C:\Users\anton\Desktop\ISI presentation\Posts\Approaching the Edge of Decision\classes_joined.png)
+{{< figure src="linear.png" title="Classes Separated">}}
+{{< figure src="concentric.png" title="Classes Separated">}}
 
 The data in both problems has exactly the same topological characteristics. Yet it would be reckless to assume both tasks are equivalent. One is linearly separable (*left*) while the other clearly isn't. We intuitively understand  that we would require a more complex model to differentiate the classes in the right. Or better yet, **only** a more complex problem could.
 
@@ -53,7 +54,7 @@ x \in V_{s_i} \quad \Leftrightarrow \quad d(x,s_i)\leq d(x, s_j) \quad \forall x
 $$
 We call **Voronoi cover** to the cover $V_S = (\mathcal{V}_\sigma)_{\sigma \in S}$
 
-<img src="C:\Users\anton\Desktop\Vector\voronoi.png" alt="voronoi" style="zoom:30%;" />
+{{< figure src="voronoi.png" title="Voronoi Diagram" >}}
 
 A Voronoi cover simple partitions the space into cells of points that are "the closest" to a predefined point (our data point). Now consider a Voronoi cover with points of different classes, if we take two adjacent cells of points of different classes say point $a$ and $b$, the common edge $E_{ab}$ of that cell is made of the points that:
 
@@ -104,6 +105,8 @@ Therefore, at a given iteration of the algorithm, if point $q$ does not belong t
 
 
 [^1]: You'd expect this realization to come sooner in a field called *Data Science.*
+
 [^6]: Yes, I say believe since it is not really a defined thing in topology. Which also means we can define it as whatever we want. Basically I'm not asking you to believe in entanglement, I'm asking you to believe **me**.
+
 [^7]: If you haven't, check out *The Advent of Topology* to get the definitions of the basic objects in Topological Data Analysis. Definitions that I will not go over here.
 
