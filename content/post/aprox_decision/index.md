@@ -54,7 +54,7 @@ x \in V_{s_i} \quad \Leftrightarrow \quad d(x,s_i)\leq d(x, s_j) \quad \forall x
 $$
 We call **Voronoi cover** to the cover $V_S = (\mathcal{V}_\sigma)_{\sigma \in S}$
 
-{{< figure src="voronoi.png" title="Voronoi Diagram" width="10">}}
+{{< figure src="voronoi.png" title="Voronoi Diagram" numbered="True">}}
 
 A Voronoi cover simple partitions the space into cells of points that are "the closest" to a predefined point (our data point). Now consider a Voronoi cover with points of different classes, if we take two adjacent cells of points of different classes say point $a$ and $b$, the common edge $E_{ab}$ of that cell is made of the points that:
 
