@@ -4,9 +4,9 @@ subtitle: On the topological complexity of decision boundaries.
 math: true
 diagram: true
 reading_time: false  
-share: false  
+share: true 
 profile: false  
-commentable: true
+comments: true
 weight: 2
 image:
   placement: 1
