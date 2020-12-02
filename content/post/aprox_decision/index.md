@@ -90,7 +90,7 @@ Repeat for _number_of_iterations_:
 - For each point $q$ in $Q$ find its closest points of different classes $a,b$
 - Project $q$ to the affine hyperspace orthogonal to $a-b$
 
-<img src="C:\Users\anton\Desktop\Vector\voronoiboudary.png" alt="voronoiboudary" style="zoom:25%;" />
+{{< figure src="voronoiboudary.png" title="Classes Separated">}}
 
 The fact is, the algorithm works by "pushing" each point in the cover $Q$ towards the boundary by projecting it to these "sub-boundaries". If, at a given iteration $(a,b) \notin Adj$ then $a,b$ are no longer the closest points of different classes. Basically, the only stationary points of this process are the points in the voronoi decision boundary.
 
