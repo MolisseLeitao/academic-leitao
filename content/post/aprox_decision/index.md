@@ -54,7 +54,7 @@ x \in V_{s_i} \quad \Leftrightarrow \quad d(x,s_i)\leq d(x, s_j) \quad \forall x
 $$
 We call **Voronoi cover** to the cover $V_S = (\mathcal{V}_\sigma)_{\sigma \in S}$
 
-{{< figure src="voronoi.png" title="Voronoi Diagram" width="200" height="150">}}
+{{< figure src="voronoi.png" title="Voronoi Diagram" width="400" height="300">}}
 
 A Voronoi cover simple partitions the space into cells of points that are "the closest" to a predefined point (our data point). Now consider a Voronoi cover with points of different classes, if we take two adjacent cells of points of different classes say point $a$ and $b$, the common edge $E_{ab}$ of that cell is made of the points that:
 
@@ -90,7 +90,7 @@ Repeat for _number_of_iterations_:
 - For each point $q$ in $Q$ find its closest points of different classes $a,b$
 - Project $q$ to the affine hyperspace orthogonal to $a-b$
 
-{{< figure src="voronoiboudary.png" title="Classes Separated">}}
+{{< figure src="voronoiboudary.png" title="Classes Separated" width="400" height="300">}}
 
 The fact is, the algorithm works by "pushing" each point in the cover $Q$ towards the boundary by projecting it to these "sub-boundaries". If, at a given iteration $(a,b) \notin Adj$ then $a,b$ are no longer the closest points of different classes. Basically, the only stationary points of this process are the points in the voronoi decision boundary.
 
