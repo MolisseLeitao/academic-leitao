@@ -27,10 +27,10 @@ interests:
 
 education:
   courses:
-  - course: MSc in Data Science and Advanced Analytics
+  - course: MSc in Data Science
     institution: NOVA University, Lisbon
     year: 2020
-  - course: PstGrad in Cryptography and Information
+  - course: PstGrad in Cryptography
     institution: NOVA University, Lisbon
     year: 2018
   - course: BSc in Mathematics
