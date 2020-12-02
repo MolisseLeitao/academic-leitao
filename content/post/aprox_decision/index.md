@@ -21,7 +21,7 @@ image:
 
 
 <H3> <div style="text-align:center">Prelude</div> </H3>
-*Complex data requires complex models.* Or so the saying goes. In every domain, one of the major difficulties is selecting the optimal model architecture for given a classification problem. Most approaches tend to be domain-specific [reference] or offer no reasonable explanations of a model's architecture choice, aside from superior performance [references]. The only logical step would be to look at the data itself [^1] and build a model based of certain characteristics of the data. But what is complex data anyways?  If we follow [Will] then complex data is data that has _non-trivial homology_ . However, classifying two concentric circles is challenging not because they are circles, but because they are concentric.
+_Complex data requires complex models._ Or so the saying goes. In every domain, one of the major difficulties is selecting the optimal model architecture for given a classification problem. Most approaches tend to be domain-specific [reference] or offer no reasonable explanations of a model's architecture choice, aside from superior performance [references]. The only logical step would be to look at the data itself [^1] and build a model based of certain characteristics of the data. But what is complex data anyways?  If we follow [Will] then complex data is data that has _non-trivial homology_ . However, classifying two concentric circles is challenging not because they are circles, but because they are concentric.
 
 {{< figure src="linear.png" title="Classes Separated">}}
 {{< figure src="concentric.png" title="Classes Separated">}}
