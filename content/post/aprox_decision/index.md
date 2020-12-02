@@ -21,7 +21,7 @@ image:
 
 
 <H3> <div style="text-align:center">Prelude</div> </H3>
-*Complex data requires complex models.* Or so the saying goes. In every domain, one of the major difficulties is selecting the optimal model architecture for given a classification problem. Most approaches tend to be domain-specific [reference] or offer no reasonable explanations of a model's architecture choice, aside from superior performance [references]. The only logical step would be to look at the data itself [^1] and build a model based of certain characteristics of the data. But what is complex data anyways?  If we follow [Will] then complex data is data that has _non-trivial homology_ . However, classifying two concentric circles is challenging not because they are circles, but because they are concentric.
+**Complex data requires complex models.** Or so the saying goes. In every domain, one of the major difficulties is selecting the optimal model architecture for given a classification problem. Most approaches tend to be domain-specific [reference] or offer no reasonable explanations of a model's architecture choice, aside from superior performance [references]. The only logical step would be to look at the data itself [^1] and build a model based of certain characteristics of the data. But what is complex data anyways?  If we follow [Will] then complex data is data that has _non-trivial homology_ . However, classifying two concentric circles is challenging not because they are circles, but because they are concentric.
 
 ![calsses_separated](C:\Users\anton\Desktop\ISI presentation\Posts\Approaching the Edge of Decision\classes_separated.png) ![classes_joined](C:\Users\anton\Desktop\ISI presentation\Posts\Approaching the Edge of Decision\classes_joined.png)
 
@@ -41,13 +41,13 @@ In this post we will go over all these problems, but just the ones regarding the
 <H3> <div style="text-align:center">Overture</div> </H3>
 Before we get rigorous we should start defining some things here[^7]. The idea is to build upon our intuition of characterizing how complex a _problem_ actually is. In the *Prelude* we talked about how one of the problems was linearly separable [image]. Because we can separate both classes with a straight line. A linearly separable problem in 3 dimensions could be separated with a plane, and so forth. This separating hyperplane we call decision boundary:
 
-**Definition 1.1 ** We call *decision boundary* of $\mathbb{R}^n$ to a $n-1$ dimensional manifold that separates the space in $c$-classes.
+**Definition 1.1** We call *decision boundary* of $\mathbb{R}^n$ to a $n-1$ dimensional manifold that separates the space in $c$-classes.
 
 **Definition 1.2** We say that manifolds are *linearly separable* if their decision boundary is a plane.
 
 Obviously the decision boundary in not unique. It _can_ be, but most cases it isn't. So which one do we consider? Well the most intuitive and broad would be to consider the decision boundary that maximizes the distance between any 2 points of different classes. This one is unique though, and we can actually define it very well, but first.
 
-**Definition 1.3 ** (Voronoi cover) For each point in ${R}^n$ in a given set $S = \{s_1, ..., s_k\}$ we define a Voronoi cell as the set:
+**Definition 1.3** (Voronoi cover) For each point in ${R}^n$ in a given set $S = \{s_1, ..., s_k\}$ we define a Voronoi cell as the set:
 $$
 x \in V_{s_i} \quad \Leftrightarrow \quad d(x,s_i)\leq d(x, s_j) \quad \forall x\in\mathbb{R}^n \land i\neq j
 $$
@@ -70,7 +70,7 @@ $$
 
 If we take the union of these edges of all adjacent pairs of different classes we have the decision boundary.
 
-**Definition 1.4 ** We call *Voronoi Decision Boundary* (or just decision boundary) to the union
+**Definition 1.4** We call *Voronoi Decision Boundary* (or just decision boundary) to the union
 $$
 DB = \bigcup E_{a,b} \quad \forall (a,b) \in Adj
 $$
