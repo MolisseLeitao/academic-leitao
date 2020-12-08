@@ -1,11 +1,11 @@
 ---
 title: The Advent of Topology
 subtitle: How Topological Data Analysis came to be.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing at in tellus integer. Ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper. Risus viverra adipiscing at in tellus integer feugiat. Vel facilisis volutpat est velit egestas dui id ornare. Volutpat ac tincidunt vitae semper quis lectus nulla. Cras adipiscing enim eu turpis. Lorem ipsum dolor sit amet consectetur. 
+summary: The MNIST dataset is a collection of images of handwritten digits. Before the birth of Convolutional Neural Networks most machine learning approaches arranged each 28x28 pixel image into a 758-dimensional vector. Does this make sense? Does natural data have these coordinates? What if I told you this is seen as standard procedure in "machine learning". Are we cramming vectors, coordinates and metrics where they have no business in?
 math: true
 diagram: true
 reading_time: false  
-share: false  
+share: true  
 profile: false
 weight: 1
 commentable: true
