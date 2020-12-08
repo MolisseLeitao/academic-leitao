@@ -1,11 +1,11 @@
 ---
 title: Redrawing Persistent Homology
 subtitle: Redrawing it.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing at in tellus integer. Ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper. Risus viverra adipiscing at in tellus integer feugiat. Vel facilisis volutpat est velit egestas dui id ornare. Volutpat ac tincidunt vitae semper quis lectus nulla. Cras adipiscing enim eu turpis. Lorem ipsum dolor sit amet consectetur. 
+summary: Imagine that you wanted to compare the persistent homology of two different metric spaces. The filtration parameter of standard Vietoris-Rips filtration is the metric, but each space has its own metric. So, how do we compare their persistent homology?
 math: true
 diagram: true
 reading_time: false  
-share: false  
+share: true  
 profile: false
 weight: 3
 commentable: true
