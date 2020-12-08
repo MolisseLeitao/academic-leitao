@@ -1,6 +1,7 @@
 ---
 title: Approaching the Edge of Decision
 subtitle: On the topological complexity of decision boundaries.
+summary: Complex data requires complex models, right? But does it really? Classifying two concentric circles is challenging not because they are circles but because they are concentric. The complexity of the decision boundary measures how the classes are entangled and is the closest approximation to the intrinsic difficulty of a classification problem. But it all starts by sampling the decision boundary. (Or is it *a* decision boundary?)
 math: true
 diagram: true
 reading_time: false  
