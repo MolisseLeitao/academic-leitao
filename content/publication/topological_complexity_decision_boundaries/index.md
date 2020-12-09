@@ -21,7 +21,7 @@ We adopt the topology of the space of decision boundaries realized by a neural a
 By sampling a large number of neural architectures with different sizes and design, we show how such measure of expressive power depends on the properties of the architectures, like depth, width and other related quantities. 
 
 links:
-- name: Conference
+  name: Conference
   url: https://openreview.net/group?id=NeurIPS.cc/2020/Workshop/TDA_and_Beyond
 url_pdf: https://openreview.net/pdf?id=I44kJPuvqPD
 url_poster: https://openreview.net/attachment?id=I44kJPuvqPD&name=Poster
