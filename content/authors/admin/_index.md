@@ -71,4 +71,4 @@ user_groups:
 ---
 I'm a mathematician currently doing my Master's thesis at [ISI Foundation](https://www.isi.it/en/home) under the supervision of [Giovanni Petri](https://lordgrilo.github.io/). My work focuses mainly on the Topology of spaces in learning systems. 
 
-Ocasionally I stumble upon interesting nuggets of information that unfortunately have no space in my thesis; hence this site.
+I like to condense interesting parts of my work into over-illustrated, easily-digestible chunks.
